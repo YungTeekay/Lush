@@ -13,7 +13,13 @@
       "Bash(gh auth *)",
       "Bash(gh repo *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(find ~/Downloads ~/Desktop ~/Pictures /tmp /private/tmp -maxdepth 3 -type f \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.heic\" -o -iname \"*.webp\" \\\\\\) -mtime -3 2>/dev/null | head -40)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/GeorgeDube/Downloads/PHOTO-2026-07-08-12-39-01.jpg\")",
+      "Bash(command -v magick convert python3)",
+      "Bash(python3 -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
+      "Bash(python3 -m pip install --quiet --user Pillow)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

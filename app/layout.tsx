@@ -4,8 +4,8 @@ import "./globals.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["600", "700"],
-  variable: "--font-heading",
+  weight: ["500", "600", "700"],
+  variable: "--font-display",
   display: "swap",
 });
 
@@ -17,9 +17,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Lush Properties · Real Estate on the West Rand, Roodepoort",
+  title: "Lush Magadla · Lush Property — Digital Card",
   description:
-    "Family homes, townhouses and sectional title units across Roodepoort and the West Rand. Personal, honest guidance from a local agent who knows every suburb.",
+    "Lush Magadla, Sales & Rental Agent at Lush Property. Save my contact or message me on WhatsApp.",
 };
 
 export default function RootLayout({
