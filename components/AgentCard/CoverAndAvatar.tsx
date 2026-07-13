@@ -9,7 +9,7 @@ export function CoverAndAvatar({ agent }: { agent: AgentConfig["agent"] }) {
       <div className="mx-5 overflow-hidden rounded-card" style={{ aspectRatio: "16 / 8" }}>
         <img
           src="/cover.jpg"
-          alt="Leafy residential suburb of homes below a dramatic mountain range at golden hour"
+          alt="A welcoming family home with a warm red roof and garden"
           width={972}
           height={486}
           className="h-full w-full object-cover"
