@@ -17,9 +17,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Lush Magadla · Lush Property — Digital Card",
+  title: "Lush Magadla · RealNet Properties — Digital Card",
   description:
-    "Lush Magadla, Sales & Rental Agent at Lush Property. Save my contact or message me on WhatsApp.",
+    "Lush Magadla, Sales & Rental Agent at RealNet Properties. Save my contact or message me on WhatsApp.",
 };
 
 export default function RootLayout({

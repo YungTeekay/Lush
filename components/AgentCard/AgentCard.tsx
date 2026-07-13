@@ -49,10 +49,10 @@ export function AgentCard({ config }: { config: AgentConfig }) {
 
         {/* Identity block */}
         <div className="mt-3 px-5 text-center">
-          <h1 className="font-display text-2xl font-semibold text-blue-ink">
+          <h1 className="font-display text-2xl font-semibold text-ink">
             {agent.name}
           </h1>
-          <p className="mt-1 font-body text-sm font-semibold text-blue">
+          <p className="mt-1 font-body text-sm font-semibold text-brand">
             {agent.role}
           </p>
           <p className="mx-auto mt-2 max-w-[34ch] font-body text-sm text-slate">

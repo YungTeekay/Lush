@@ -19,7 +19,14 @@
       "Bash(command -v magick convert python3)",
       "Bash(python3 -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
       "Bash(python3 -m pip install --quiet --user Pillow)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "WebFetch(domain:realnet.co.za)",
+      "Bash(grep -rn \"Lush Propert\" app components lib)",
+      "Bash(grep -rn \"BrandMark\" app components)",
+      "Bash(grep -rni \"affordability\" app components lib)",
+      "Bash(cp \"/private/tmp/claude-502/-Users-GeorgeDube-Desktop-Lush-Website/20bb8c92-061f-481f-9175-5a09535171be/scratchpad/cov2-photo-1576941089067-2de3c901e126.jpg\" public/cover.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight public/cover.jpg)",
+      "Bash(cd \"/Users/GeorgeDube/Desktop/Lush Website\" && cp \"/private/tmp/claude-502/-Users-GeorgeDube-Desktop-Lush-Website/20bb8c92-061f-481f-9175-5a09535171be/scratchpad/capeB_vista.jpg\" public/cover.jpg && sips -g pixelWidth -g pixelHeight public/cover.jpg 2>/dev/null | tail -2)"
     ]
   }
 }

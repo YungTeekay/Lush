@@ -1,5 +1,5 @@
 // Single source of truth for the card. To publish a card for a different
-// agent at Lush Property, copy this file's shape and swap the values —
+// agent at RealNet, copy this file's shape and swap the values —
 // no component code needs to change.
 
 export type QuickLinkIcon =
@@ -45,13 +45,13 @@ export interface AgentConfig {
 
 export const agentConfig: AgentConfig = {
   brand: {
-    name: "Lush",
-    suffix: "Property",
+    name: "RealNet",
+    suffix: "Properties",
     registration: "PPRA registered",
   },
   agent: {
     name: "Lush Magadla",
-    role: "Sales & Rental Agent · Lush Property",
+    role: "Sales & Rental Agent · RealNet",
     blurb:
       "Family homes, townhouses & sectional title across the West Rand. Straight talk, first-time buyers welcome.",
     // Lush's portrait, cropped from his business card. Served from /public.
@@ -65,17 +65,17 @@ export const agentConfig: AgentConfig = {
     mapsUrl:
       "https://www.google.com/maps/search/?api=1&query=Clearwater+Office+Park+Roodepoort",
     hours: "Mon–Fri 8:30–5 · Sat by appointment",
-    tagline: "Lush Property — homes for real life.",
+    tagline: "RealNet — homes for real life.",
   },
   valueProp: {
-    heading: "New to buying? I've got you.",
-    body: "Free bond & affordability guidance before you make an offer — no pressure.",
+    heading: "Thinking of buying or selling?",
+    body: "Free bond guidance and a free valuation of your home — no pressure.",
   },
   quickLinks: [
     { label: "My listings", href: "/listings", icon: "home" },
     { label: "List with me", href: "/list-your-property", icon: "plus" },
     { label: "Bond calculator", href: "/tools/bond", icon: "calculator" },
-    { label: "Affordability", href: "/tools/affordability", icon: "chart" },
+    { label: "Free valuation", href: "/tools/valuation", icon: "chart" },
     { label: "About Lush", href: "/about", icon: "info" },
   ],
 };

@@ -13,7 +13,7 @@
   /* Amber focus ring on every interactive element */
   a:focus-visible,
   button:focus-visible {
-    outline: 3px solid theme("colors.amber.DEFAULT");
+    outline: 3px solid theme("colors.plum.DEFAULT");
     outline-offset: 2px;
     border-radius: 8px;
   }

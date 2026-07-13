@@ -31,7 +31,7 @@ function ActionCircle({
           "flex h-12 w-12 items-center justify-center rounded-pill transition-transform duration-200 active:scale-95",
           primary
             ? "bg-whatsapp text-white shadow-card"
-            : "border border-line-2 bg-card text-blue",
+            : "border border-line-2 bg-card text-brand",
         ].join(" ")}
       >
         {children}

@@ -5,27 +5,32 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        blue: {
-          DEFAULT: "#1B6FB0",
-          dark: "#12527F",
-          ink: "#0F3F63",
+        // RealNet brand palette: red primary, purple accent, white surfaces
+        brand: {
+          DEFAULT: "#D50130", // primary — CTAs, links, contact icons
+          dark: "#B00127", // hover state for primary
         },
-        amber: {
-          DEFAULT: "#F4A825",
-          dark: "#C97F0A",
-          tint: "#FDF1DA",
+        plum: {
+          DEFAULT: "#681D75", // secondary accent — matches the logo "Net"
+          dark: "#4E1657",
+          tint: "#F4EAF6", // soft background for accent callouts
         },
-        whatsapp: "#25A366",
-        ink: "#20303B",
+        whatsapp: {
+          // Functional channel color (WhatsApp only), deepened so white text
+          // clears WCAG AA (~5.3:1) against the red/purple brand.
+          DEFAULT: "#0E7C43",
+          dark: "#0A6836",
+        },
+        ink: "#1E2839", // headings & primary body text
         slate: {
-          DEFAULT: "#5A6B77",
-          2: "#8494A0",
+          DEFAULT: "#5A6B77", // secondary text
+          2: "#8494A0", // tertiary/muted text
         },
-        paper: "#FBF7F0",
+        paper: "#F4F4F6", // page background
         card: "#FFFFFF",
         line: {
-          DEFAULT: "#ECE6DB",
-          2: "#E0DACE",
+          DEFAULT: "#E2E8F0", // borders/dividers
+          2: "#D8DEE7",
         },
       },
       fontFamily: {
@@ -38,7 +43,7 @@ const config: Config = {
         pill: "999px",
       },
       boxShadow: {
-        card: "0 20px 50px rgba(15,63,99,0.16)",
+        card: "0 20px 50px rgba(30,40,57,0.16)",
       },
       maxWidth: {
         card: "440px",

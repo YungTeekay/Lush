@@ -22,7 +22,7 @@ export function QuickLinks({
           const Icon = quickLinkIcons[link.icon];
           return (
             <a key={link.label} href={link.href} className={tileClass}>
-              <span className="text-blue">
+              <span className="text-brand">
                 <Icon size={18} />
               </span>
               {link.label}
@@ -35,7 +35,7 @@ export function QuickLinks({
           aria-label={`Share ${agentName}'s card`}
           className={tileClass}
         >
-          <span className="text-blue">
+          <span className="text-brand">
             <ShareIcon size={18} />
           </span>
           Share card

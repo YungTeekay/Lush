@@ -5,13 +5,13 @@ export function MetaFooter({ agent }: { agent: AgentConfig["agent"] }) {
   return (
     <footer className="mt-6 border-t border-line px-5 py-5">
       <p className="flex items-center gap-2 font-body text-sm text-slate">
-        <span className="text-blue">
+        <span className="text-brand">
           <PinIcon size={16} />
         </span>
         {agent.address}
       </p>
       <p className="mt-1.5 font-body text-sm text-slate-2">{agent.hours}</p>
-      <p className="mt-3 font-display text-sm font-medium text-blue-ink">
+      <p className="mt-3 font-display text-sm font-medium text-plum">
         {agent.tagline}
       </p>
     </footer>
